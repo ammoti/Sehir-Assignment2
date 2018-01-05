@@ -11,17 +11,17 @@
 ## /contact --> contact page
 ## /about --> about page
 
-## /genre --> Music Genre which list all genre
-## /album --> Music Album which list all albums
-## /song --> Music Song which list all songs
+## /MusicWorld/genre --> Music Genre which list all genre
+## /MusicWorld/album --> Music Album which list all albums
+## /MusicWorld/song --> Music Song which list all songs
 
-## /genre/detail/1 --> Music Genre which list detail genre
-## /album/detail/1 --> Music Album which list detail albums
-## /song/detail/1 --> Music Song which list detail songs
+## /MusicWorld/genre/detail/1 --> Music Genre which list detail genre
+## /MusicWorld/album/detail/1 --> Music Album which list detail albums
+## /MusicWorld/song/detail/1 --> Music Song which list detail songs
 
-## /genre/search/[keyword] --> Music Genre which list according to keyword
-## /album/search/[keyword] --> Music Album which list according to keyword
-## /song/search/[keyword] --> Music Song which list according to keyword
+## /MusicWorld/genre/search/[keyword] --> Music Genre which list according to keyword
+## /MusicWorld/album/search/[keyword] --> Music Album which list according to keyword
+## /MusicWorld/song/search/[keyword] --> Music Song which list according to keyword
 
 
 

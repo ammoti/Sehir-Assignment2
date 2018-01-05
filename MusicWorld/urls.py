@@ -37,15 +37,15 @@ urlpatterns = [
             'next_page': '/',
         },
         name='logout'),
-    url(r'^genre/search/(?P<genrename>[a-z]+)$',app.views.searchGenres,name='genredetail'),
-    url(r'^album/search/(?P<genrename>[a-z]+)$',app.views.searchAlbums,name='albumdetail'),
-    url(r'^song/search/(?P<musicalbum>[\w\-]+)/$',app.views.searchSongs,name='songdetail'),
-    url(r'^genre/detail/(?P<genre_id>[0-9]+)$',app.views.genresDetail,name='searchgenre'),
-    url(r'^album/detail/(?P<album_id>[0-9]+)$',app.views.albumDetail,name='searchalbum'),
-    url(r'^song/detail/(?P<song_id>[0-9]+)$',app.views.songDetail,name='searchsong'),
-    url(r'^genre$',app.views.genres,name='genres'),
-    url(r'^album',app.views.albums,name='albums'),
-    url(r'^song',app.views.songs,name='songs')   
+    url(r'^MusicWorld/genre/search/(?P<genrename>[a-z]+)$',app.views.searchGenres,name='genredetail'),
+    url(r'^MusicWorld/album/search/(?P<genrename>[a-z]+)$',app.views.searchAlbums,name='albumdetail'),
+    url(r'^MusicWorld/song/search/(?P<musicalbum>[\w\-]+)/$',app.views.searchSongs,name='songdetail'),
+    url(r'^MusicWorld/genre/detail/(?P<genre_id>[0-9]+)$',app.views.genresDetail,name='searchgenre'),
+    url(r'^MusicWorld/album/detail/(?P<album_id>[0-9]+)$',app.views.albumDetail,name='searchalbum'),
+    url(r'^MusicWorld/song/detail/(?P<song_id>[0-9]+)$',app.views.songDetail,name='searchsong'),
+    url(r'^MusicWorld/genre$',app.views.genres,name='genres'),
+    url(r'^MusicWorld/album',app.views.albums,name='albums'),
+    url(r'^MusicWorld/song',app.views.songs,name='songs')   
    
 
     # Uncomment the admin/doc line below to enable admin documentation:
